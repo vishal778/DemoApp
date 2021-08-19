@@ -1,5 +1,7 @@
 name: example-client-payload-action
-on: repository_dispatch
+on:
+  repository_dispatch:
+    types: [awesomeness]
 jobs:
   test:
     name: Test
